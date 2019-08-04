@@ -1,4 +1,4 @@
-<div class="ors-route-controls">
+<div class="ors-route-controls" hidden>
     <div>
         <button class="ors-controls-button" ng-click="$ctrl.add()" ng-show="$ctrl.showAdd" tooltip-side="right" tooltip-template="{{('ADD' | translate)}}" tooltips="">
             <i class="fa fa-plus" s="">
@@ -36,7 +36,7 @@
         </button>
     </div>
 </div>
-<div class="ors-routing-options container" ng-show="$ctrl.showOptions">
+<div class="ors-routing-options container" ng-show="false">
     <ors-options active-profile="$ctrl.activeProfile" active-subgroup="$ctrl.activeSubgroup" show-options="$ctrl.showOptions">
     </ors-options>
 </div>
